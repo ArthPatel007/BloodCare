@@ -23,6 +23,10 @@ Database:MySQL
 ## Acknowledgements
 
  - [Php ](https://www.php.net/)
- - [Awesome README](https://www.w3schools.com/MySQL/default.asp)
+ - [MySql](https://www.w3schools.com/MySQL/default.asp)
+
+ - ## Demo
+Home Page
+![Screenshot (165)](https://github.com/ArthPatel007/bloodcare/assets/111559578/0a251f6f-d5a5-4ea7-b991-d85b73314d81)
 
 
