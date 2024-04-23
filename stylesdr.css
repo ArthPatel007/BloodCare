@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("path/to/your-font.woff2") format("woff2"),
+    url("path/to/your-font.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+input,
+select {
+  font-family: "CustomFont", sans-serif; /* Use the custom font with a fallback sans-serif font */
+}
+.blood-bank-form {
+  max-width: 650px;
+  margin: 0 auto;
+  /* background: url("bg.jpg"); */
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  /* Blood red color */
+}
+
+label,
+input,
+select {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  /* margin: 0; */
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus,
+select:focus {
+  border-color: #a40808;
+}
+
+input[type="submit"] {
+  background: #a40808;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type="submit"]:hover {
+  background: #821010; /* Darker red on hover */
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.checkbox-container label {
+  margin-left: 10px;
+}
+/* Add more CSS for styling as desired */
+/* Add your custom styles here */
+.container {
+  max-width: 768px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn.submit {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add smooth transition effect */
+}
+
+.btn.submit:hover {
+  background-color: #0056b3;
+}
+
+.account-w3ls {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}
